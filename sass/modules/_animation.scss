@@ -1,0 +1,20 @@
+.a {
+  stroke: #222;
+  stroke-width: 2px;
+  fill: none;
+}
+.active {
+  transition: transform 1s ease-in-out;
+  transform: rotate(360deg);
+}
+
+#animation-wrapper {
+  background: white;
+  margin: 1em;
+}
+
+svg {
+  width: 160px;
+  height: 105px;
+  transform: rotate(0deg);
+}
